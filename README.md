@@ -27,3 +27,7 @@ ARGS:
 
  
 ![](rusty.gif)
+
+#### Here's a proof of concept screenshot of my ugly conky configuration using rustynews:
+
+![](conky_screenshot.png)

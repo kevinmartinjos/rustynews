@@ -1,6 +1,10 @@
 Command line [hacker news](https://news.ycombinator.com) written in rust
 
-Very minimal. Very scrappy. I wrote it so that I can display top hacker news articles in [Conky](https://github.com/brndnmtthws/conky)
+Very minimal (literally 80 lines of code). Very scrappy. I wrote it so that I can display top hacker news articles in [Conky](https://github.com/brndnmtthws/conky)
+
+### Installation
+
+`cargo install rustynews` and wait till the dependencies compile.
 
 ### Usage
 
@@ -22,4 +26,4 @@ ARGS:
 
 
  
-
+![](rusty.gif)

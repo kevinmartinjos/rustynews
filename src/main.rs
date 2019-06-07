@@ -7,15 +7,19 @@ use structopt::StructOpt;
 // Struct to store our command line arguments
 #[derive(StructOpt)]
 struct Cli {
-    /// The number of top posts to retrieve
+    /// The number of top posts to be retrieved
     num: usize,
     #[structopt(short = "p", long = "--progress")]
+    /// Show progress bar while posts are being fetched
     progress: bool,
     #[structopt(short = "b", long = "by")]
+    /// Display username
     by: bool,
     #[structopt(short = "s", long = "score")]
+    /// Display score
     score: bool,
     #[structopt(short = "u", long = "url")]
+    /// Display URL
     url: bool
 }
 
